@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: url('background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .nav-buttons button {
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #ff784e;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .welcome-section h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .welcome-section p {
+    font-size: 20px;
+    color: #ccc;
+  }
+  
+  .brand-selection select {
+    padding: 15px;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .appliance-section {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .appliance-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .appliance-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .appliance-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .appliance-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .appliance-card img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .appliance-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .appliance-card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ddd;
+  }
+  
+  .order-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #ff784e;
+  }
+  
+  @media (max-width: 768px) {
+    .appliance-cards {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  
+    .navbar {
+      padding: 0 20px;
+    }
+  }
+  
+
+
+
+  
