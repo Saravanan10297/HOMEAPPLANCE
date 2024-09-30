@@ -35,6 +35,7 @@ exit;
 }
 //Update model details
 $sql = "UPDATE model SET Price = '$Price', Colour = '$Colour', Capacity = '$Capacity', Image = '$Image',Qty='$qty' WHERE id = ".$modelid;
+echo $sql;
 $result = mysqli_query($con, $sql);
 
 if ($result) {
